@@ -1,6 +1,8 @@
 import React from "react";
 
 function Nav(){
+
+    return (
     <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
             <a className="navbar-brand text-white" href="/">
@@ -24,6 +26,7 @@ function Nav(){
             </div>
         </div>
     </nav>
+    )
 }
 
 export default Nav;

@@ -1,8 +1,4 @@
-main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
-}
+
 :root{
   --primary: #222D41;
   --secondary: #202B45;
@@ -48,6 +44,14 @@ nav {
   background-position: center;
   height: 150px;
   width: 100%;
+}
+
+.mini-hero {
+  background-image: url("./assets/images/silent-planet-astronaut-crop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75px;
+  width: 100%
 }
 
 #about-section {
