@@ -9,11 +9,17 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
 html,
 body {
   min-height: 100%;
+  background-color: var(--primary)
+}
+
+.myDiv{
+  background-color: var(--primary)
 }
 
 body {
@@ -42,26 +48,35 @@ nav {
   background-color: var(--secondary);
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-}
-
-.hero {
   background-image: url("./assets/images/silent-planet.jpg");
   background-size: cover;
   background-position: center;
-  height: 100px;
-  width: 100%;
+  height: 75px;
 }
 
-.mini-hero {
+
+#about-section {
+  background-color: var(--secondary);
+  padding-top: 12px;
+  padding: 0px;
+
+}
+
+#about-me-title{
+  margin-left: 12px;
   background-image: url("./assets/images/silent-planet-astronaut-crop.jpg");
   background-size: cover;
   background-position: center;
   height: 75px;
   width: 100%
+  
 }
 
-#about-section {
-  background-color: var(--secondary)
+#about-section-text{
+  margin-top: 6px;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align: center;
 }
 
 
