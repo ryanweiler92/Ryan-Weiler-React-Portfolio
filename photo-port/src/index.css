@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 :root{
   --primary: #222D41;
   --secondary: #202B45;
@@ -25,7 +25,8 @@ body {
   letter-spacing: .1em;
   background: var(--primary);
   color: var(--rust);
-  font-family: 'Cantarell'
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 
 }
 
@@ -34,8 +35,14 @@ code {
     monospace;
 }
 
+main {
+  background-color: var(--primary)
+}
 nav {
-  background-color: var(--secondary)
+  background-color: var(--secondary);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  
 }
 
 .hero {
@@ -56,4 +63,14 @@ nav {
 
 #about-section {
   background-color: var(--secondary)
+}
+
+form {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: var(--rust);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  border: 4px solid var(--rust);
+  background-color: var(--tertiary)
 }
