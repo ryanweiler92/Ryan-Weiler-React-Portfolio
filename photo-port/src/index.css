@@ -63,13 +63,11 @@ nav {
 }
 
 #about-me-title{
-  margin-left: 12px;
   background-image: url("./assets/images/silent-planet-astronaut-crop.jpg");
   background-size: cover;
   background-position: center;
   height: 75px;
   width: 100%
-  
 }
 
 #about-section-text{
@@ -79,6 +77,18 @@ nav {
   text-align: center;
 }
 
+.portfolio{
+  padding: 0px;
+}
+
+#portfolio-title{
+  background-image: url("./assets/images/silent-planet-trees-crop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75px;
+  width: 100%;
+  padding: 0px;
+}
 
 form {
   font-family: 'Poppins', sans-serif;

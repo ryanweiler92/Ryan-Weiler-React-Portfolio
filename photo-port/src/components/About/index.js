@@ -4,7 +4,7 @@ function About(){
 
     return (
         <div className="container-fluid text-white mt-5" id="about-section" href="/about">
-            <div className="row pt-2" id="about-me-title">
+            <div className="row ms-0 pt-2" id="about-me-title">
                 <h3 >About Me</h3>
             </div>
             <div className="row" id="about-section-text">
