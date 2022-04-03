@@ -9,44 +9,34 @@ import Portfolio from './components/Portfolio'
 
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-
-  const [projects] = useState([
-    {
-        name: "XYZ Rentals",
-        technologies: "MYSQL2, Sequelize, Express"
-    },
-    {
-        name: "College Search",
-        technologies: "Javascript, CSS, HTML, API"
-    },
-    {
-        name: "Local Restaurant Reviewer",
-        technologies: "MYSQL2, Sequelize, Express"
-    },
-    {
-        name: "Soccer Standings & News",
-        technologies: "Javascript, CSS, HTML, API"
-    }
-]);
   
+  const [currentPage, setCurrentPage] = useState('About');
+  
+  const renderPage = () => {
+
+    if (currentPage === 'About') {
+      return <About />
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />
+    } 
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div className="myDiv">
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <Header  />
+       
       <main>
-        {!contactSelected ? (
-          <>
         <About></About>
-          </>
-        ) : (
-        <Contact></Contact>
-        )}
         <Portfolio></Portfolio>
-        <Footer></Footer>
+        <Contact></Contact>
       </main>
+      <Footer></Footer>
     </div>
   );
 }

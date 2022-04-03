@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Project from 'react'
+import Project from '../Project'
 
 function Portfolio(){
     
@@ -8,7 +8,7 @@ function Portfolio(){
             <div className="row ms-0" id="portfolio-title">
                 <h3>Portfolio</h3>
             </div>
-            <Project />
+            {/* <Project /> */}
         </div>
     )
 };

@@ -25,7 +25,7 @@ function Project(){
     return (
         <div className="row">
 
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
                 {projects.map((image, i) => (
                     <img
                     src={require(`../../assets/images/projects/${i}.jpg`)}
@@ -34,7 +34,7 @@ function Project(){
                     key={image.name}
                     />
                 ))}
-            </div>
+            </div> */}
         </div>
     )
 }
