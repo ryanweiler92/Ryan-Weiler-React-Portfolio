@@ -9,33 +9,16 @@ import Portfolio from './components/Portfolio'
 
 
 function App() {
-  
-  const [currentPage, setCurrentPage] = useState('About');
-  
-  const renderPage = () => {
-
-    if (currentPage === 'About') {
-      return <About />
-    }
-    if (currentPage === 'Contact') {
-      return <Contact />
-    } 
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />
-    }
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div className="myDiv">
       <Header  />
        
-      <main>
+      {/* <main>
         <About></About>
         <Portfolio></Portfolio>
         <Contact></Contact>
-      </main>
+      </main> */}
       <Footer></Footer>
     </div>
   );
