@@ -4,24 +4,7 @@ import About from "../About"
 import Contact from "../Contact"
 import Portfolio from "../Portfolio"
 
-function Header(){
-
-    const [currentPage, setCurrentPage] = useState('About');
-  
-    const renderPage = () => {
-  
-      if (currentPage === 'About') {
-        return <About />
-      }
-      if (currentPage === 'Contact') {
-        return <Contact />
-      } 
-      if (currentPage === 'Portfolio') {
-        return <Portfolio />
-      }
-    };
-  
-    const handlePageChange = (page) => setCurrentPage(page);
+function Header({ currentPage, handlePageChange }){
 
     return (
     

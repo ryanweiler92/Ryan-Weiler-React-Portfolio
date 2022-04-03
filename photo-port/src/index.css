@@ -42,7 +42,8 @@ code {
 }
 
 main {
-  background-color: var(--primary)
+  background-color: var(--primary);
+  margin-top: 20px;
 }
 nav {
   background-color: var(--secondary);

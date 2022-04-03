@@ -22,7 +22,11 @@ function Nav({ currentPage, handlePageChange }){
                 </a>
             </li>
             <li>
-                <a className="nav-link active text-white" href="#">
+                <a 
+                    href="#contact"
+                    onClick={() => handlePageChange('Contact')}
+                    className={currentPage === "Contact" ? 'nav-link active text-white' : 'nav-link text-white'}
+                >
                     Contact
                 </a>
             </li>
