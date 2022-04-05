@@ -1,8 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "../Nav"
-import About from "../About"
-import Contact from "../Contact"
-import Portfolio from "../Portfolio"
 
 function Header({ currentPage, handlePageChange }){
 

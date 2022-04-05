@@ -9,7 +9,8 @@ function Nav({ currentPage, handlePageChange }){
                 <a  
                     href="#about"
                     onClick={() => handlePageChange('About')}
-                    className={currentPage === "About" ? 'nav-link active text-white' : 'nav-link text-white'} >
+                    className={currentPage === "About" ? 'nav-link active text-white' : 'nav-link text-white'} 
+                    >
                     About Me
                 </a>
             </li>
@@ -17,7 +18,8 @@ function Nav({ currentPage, handlePageChange }){
                 <a 
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
-                    className={currentPage === "Portfolio" ? 'nav-link active text-white' : 'nav-link text-white'} >
+                    className={currentPage === "Portfolio" ? 'nav-link active text-white' : 'nav-link text-white'} 
+                    >
                     Portfolio
                 </a>
             </li>

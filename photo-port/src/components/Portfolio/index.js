@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Project from '../Project'
 
 function Portfolio(){
@@ -6,9 +6,9 @@ function Portfolio(){
     return (
         <div className="container-fluid text-white p-0 portfolio">
             <div className="row ms-0" id="portfolio-title">
-                <h3>Portfolio</h3>
+                <h3 className="pt-3">Portfolio</h3>
             </div>
-            {/* <Project /> */}
+                <Project />     
         </div>
     )
 };
