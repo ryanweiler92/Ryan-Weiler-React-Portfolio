@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { validateEmail } from '../../utils/helpers';
+import { useSpring, animated } from '@react-spring/web'
 
 function Contact(){
     const [formState, setFormState] = useState({ firstName: '', lastName: '', email: '', category: '', message: ''});
@@ -27,8 +28,21 @@ function Contact(){
         e.preventDefault();
         console.log(formState)
     }
+
+    const styles = useSpring({
+        from: {
+          opacity: 0
+        },
+        to: {
+          opacity: 1
+        },
+        config: {
+            duration: 2500
+        }
+      })
+
     return(
-    <div className="container-fluid d-flex justify-content-center align-items-center mt-2 mb-2">
+    <animated.div style={styles} className="container-fluid d-flex justify-content-center align-items-center mt-2 mb-2">
         <form className="form-holder p-2" onSubmit={handleSubmit} >
             <div>
                 <div className="d-flex justify-content-center align-items-center">
@@ -83,7 +97,7 @@ function Contact(){
                 </div>
             </div>
         </form>
-    </div>
+    </animated.div>
     )
 }
 

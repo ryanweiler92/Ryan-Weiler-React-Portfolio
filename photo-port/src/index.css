@@ -77,16 +77,15 @@ nav {
   background-image: url("./assets/images/silent-planet-astronaut-crop.jpg");
   background-size: cover;
   background-position: center;
-  height: 75px;
+  height: 225px;
   width: 100%;
   box-shadow: 0 0 10px 5px var(--rust);
 }
 
 .prof-pic{
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 136px;
+  max-width: 139px;
   margin-top: 20px;
-  margin-left: 40px;
   box-shadow: 0 0 10px 5px var(--rust);
 }
 
@@ -99,6 +98,8 @@ nav {
 
 #about-text {
   margin-top: 12px;
+  font-size: 18px;
+  
 }
 
 #resume-title{
@@ -255,6 +256,10 @@ i:hover{
 
 .hover-img:hover figcaption {
   opacity: 1;
+}
+
+.svg {
+  width: 350px;
 }
 
 
