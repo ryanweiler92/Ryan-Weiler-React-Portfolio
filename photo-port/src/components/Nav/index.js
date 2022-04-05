@@ -33,7 +33,10 @@ function Nav({ currentPage, handlePageChange }){
                 </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link active text-white" href="#">Resume</a>
+                <a
+                href="#resume"
+                onClick={() => handlePageChange('Resume')} 
+                className="nav-link active text-white" >Resume</a>
             </li>
         </ul>
     </div>

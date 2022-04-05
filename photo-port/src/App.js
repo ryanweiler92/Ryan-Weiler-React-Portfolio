@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './components/Nav'
 import Header from './components/Header'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
 
 
 function App() {
@@ -23,14 +23,16 @@ function App() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />
     }
+    if (currentPage === 'Resume') {
+      return <Resume />
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="myDiv">
+    <div className="myDiv d-flex flex-column min-vh-100">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-       
       <main>
       {renderPage()}
       </main>
