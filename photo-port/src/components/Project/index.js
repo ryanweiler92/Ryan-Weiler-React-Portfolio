@@ -25,11 +25,8 @@ function Project(){
         }
     ]);
 
-
     return (
-        
-        <div className="row ms-0 d-flex justify-content-center align-items-center mt-4">
-            
+    <div className="row ms-0 d-flex justify-content-center align-items-center mt-4">
         {projects.map((image, i) => (
             <div className="col-md-5 m-3">
                 <figure class="hover-img">
@@ -45,10 +42,7 @@ function Project(){
                 </figure>
             </div>
         ))}
-            </div>
-
-    )}
-
-
+    </div>
+    )};
 
 export default Project

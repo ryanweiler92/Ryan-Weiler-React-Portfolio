@@ -52,9 +52,18 @@ nav {
   background-image: url("./assets/images/silent-planet.jpg");
   background-size: cover;
   background-position: center;
-  height: 75px;
+  height: 100%;
 }
 
+.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover {
+  color: var(--rust) !important;
+  
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  font-size: 18px !important;
+  
+}
 
 #about-section {
   background-color: var(--secondary);
