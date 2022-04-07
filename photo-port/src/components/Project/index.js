@@ -26,6 +26,16 @@ function Project(){
             technologies: "Javascript, CSS, HTML, API",
             link: "https://ryanweiler92.github.io/Soccer-Standings-News/",
             github: "https://github.com/ryanweiler92/Soccer-Standings-News"
+        },
+        {
+            name: "Note Taker",
+            technologies: "Javascript, Express, API",
+            github: "https://github.com/ryanweiler92/Note-Taker"
+        },
+        {
+            name: "Social Network API",
+            technologies: "Javascript, MongoDB, Mongoose, Express",
+            github: "https://github.com/ryanweiler92/Social-Network-API"
         }
     ]);
 
@@ -42,7 +52,7 @@ function Project(){
                     <figcaption>
                         <h3>{projects[i].name}</h3>
                         <h4>{projects[i].technologies}</h4>
-                        <div className="d-flex justify-content-center align-items-center">
+                        <div className="d-flex justify-content-center align-items-center"> 
                         <a href={projects[i].github} target="_blank"><i className="fab fa-github icon"></i></a>
                         <a href={projects[i].link} target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
