@@ -30,12 +30,14 @@ function Project(){
         {
             name: "Note Taker",
             technologies: "Javascript, Express, API",
+            link: "https://sleepy-headland-66572.herokuapp.com/",
             github: "https://github.com/ryanweiler92/Note-Taker"
         },
         {
-            name: "Social Network API",
+            name: "Budget Tracker",
             technologies: "Javascript, MongoDB, Mongoose, Express",
-            github: "https://github.com/ryanweiler92/Social-Network-API"
+            github: "https://github.com/ryanweiler92/Budget-Tracker",
+            link: "https://nameless-ravine-46317.herokuapp.com/"
         }
     ]);
 
