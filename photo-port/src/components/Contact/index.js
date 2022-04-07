@@ -1,22 +1,29 @@
 import React, { useState } from 'react'
 import { validateEmail } from '../../utils/helpers';
 import { useSpring, animated } from '@react-spring/web'
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
+import Alert from '@mui/material/Alert';
 
 function Contact(){
     const [formState, setFormState] = useState({ firstName: '', lastName: '', email: '', category: '', message: ''});
     const [errorMessage, setErrorMessage] = useState('');
     const {firstName, lastName, email, category, message } = formState;
+    const errorMessageEl = document.getElementById("error-message")
     function handleChange(e){
         if (e.target.name === "email"){
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             if(!isValid){
                 setErrorMessage('Your email is invalid.');
+                errorMessageEl.style.visibility= 'visible'
             } else {
                 if(!e.target.value.length){
                     setErrorMessage(`${e.target.name} is required.`);
+                    errorMessageEl.style.visibility = 'visible'
                 } else {
                     setErrorMessage('');
+                    errorMessageEl.style.visibility = 'hidden'
                 }
             }
         }
@@ -89,11 +96,11 @@ function Contact(){
                         <textarea id="message" name="message" className="form-control" defaultValue={message} placeholder="Please enter your message" rows="5" onBlur={handleChange}></textarea>
                     </div>
                 </div>
-                <div className="cold-md-12 mt-1">
-                    <p className="error-text">{errorMessage}</p>
+                <div className="cold-md-12 mt-1" id="error-message">
+                    <Alert severity="error" >{errorMessage}</Alert>
                 </div>
                 <div className="col-md-12">
-                    <input type="submit" className="btn btn-success btn-send mt-1" value="Send message"></input>
+                    <Button variant="contained" color="secondary" endIcon={<SendIcon />} type="submit" className="btn btn-success btn-send mt-1" value="Send message">Send Message</Button>
                 </div>
             </div>
         </form>
