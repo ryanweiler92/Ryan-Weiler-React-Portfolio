@@ -3,7 +3,7 @@
 
 ## Questions
 * GitHub User Name: [ryanweiler92](https://github.com/ryanweiler92)
-* Repository Link: [Ryan-Weiler-React-Portfolio](https://github.com/ryanweiler92/Ryan-Weiler-React-Portfolio)
+* Repository Link: [Ryan-Weiler-React-Portfolio](https://github.com/ryanweiler92/Ryan-Weiler-React-Portfolio/tree/main/photo-port)
 * Application Link: [[Ryan-Weiler-React-Portfolio]()
 * For any additional questions please reach out to ryanweiler92@gmail.com.
 
@@ -21,7 +21,7 @@ An application to display my current skills and projects while providing a brief
 No installation is required. 
 
 ## Usage
-![screenshot](.src/assets/images/screenshot.jpg)
+![screenshot](./src/assets/images/screenshot.jpg)
 
 ## Contributors
 Ryan Weiler
