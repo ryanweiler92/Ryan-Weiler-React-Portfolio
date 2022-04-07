@@ -49,7 +49,7 @@ function Resume(){
             </div>
           </div>
 
-          <div className="col-5 col-md-3 col-sm-10 m-3">
+          <div className="col-10 col-md-3 col-sm-10 m-3">
             <div className="card skill-card">
               <div className="card-header">
                 Back-End Proficiencies
