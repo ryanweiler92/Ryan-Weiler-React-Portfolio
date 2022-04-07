@@ -27,6 +27,15 @@ function Contact(){
                 }
             }
         }
+        if(e.target.name ==="first name" || e.target.name ==="last name" || e.target.name ==="category" || e.target.name ==="message"){
+            if(!e.target.value.length){
+                setErrorMessage(`A ${e.target.name} is required.`)
+                errorMessageEl.style.visibility= 'visible'
+            } else {
+                setErrorMessage('');
+                errorMessageEl.style.visibility = 'hidden'
+            }
+        }
         if (!errorMessage) {
             setFormState({...formState, [e.target.name]: e.target.value })
         }
@@ -60,13 +69,13 @@ function Contact(){
                 <div className="col-md-6">
                     <div className="form-group">
                         <label htmlFor="first-name">First Name:</label>
-                        <input className="form-control" type="text" name="firstName" defaultValue={firstName} placeholder="Enter your first name" onBlur={handleChange}/>
+                        <input className="form-control" type="text" name="first name" defaultValue={firstName} placeholder="Enter your first name" onBlur={handleChange}/>
                     </div>
                 </div>
                 <div className="col-md-6">
                     <div className="form-group">
                         <label htmlFor="last-name">Last Name:</label>
-                        <input className="form-control" type="text" name="lastName" defaultValue={lastName} placeholder="Enter your last name" onBlur={handleChange}/>
+                        <input className="form-control" type="text" name="last name" defaultValue={lastName} placeholder="Enter your last name" onBlur={handleChange}/>
                     </div>
                 </div>
             </div>
