@@ -63,7 +63,7 @@ function About(){
                 <div className="d-flex justify-content-center align-items-center about-div">
                     <div className=" col-md-8 col-sm-12">
                 <animated.p style={boxShadowChange} id="about-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+                    Welcome! I am a Full Stack Web Developer from Connecticut. With over 10 years working experience I posess strong backgrounds in underwriting and math. After 24 intensive weeks I have become a graduate of the UCONN Coding Bootcamp which has provided me many techinical programming skills. An extraordinary passion for solving complex challenges and creating inspired me to become a developer. I enjoy discovering new music and artists and have an especially deep love for metal/metalcore music. 
                 </animated.p>
                     </div>
                 </div>
