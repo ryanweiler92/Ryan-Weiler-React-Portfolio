@@ -10,10 +10,10 @@ function Project(){
             github: "https://github.com/ryanweiler92/XYZ-Rentals"
         },
         {
-            name: "College Search",
-            technologies: "Javascript, CSS, HTML, API",
-            link: "https://ryanweiler92.github.io/College-Search/index.html",
-            github: "https://github.com/ryanweiler92/College-Search"
+            name: "Book-Search-Engine",
+            technologies: "MERN Stack",
+            link: "https://sleepy-journey-57485.herokuapp.com/",
+            github: "https://github.com/ryanweiler92/Book-Search-Engine"
         },
         {
             name: "Local Restaurant Reviewer",
@@ -22,10 +22,10 @@ function Project(){
             github: "https://github.com/ryanweiler92/Local-Restaurant-Reviewer"
         },
         {
-            name: "Soccer Standings & News",
+            name: "College Search",
             technologies: "Javascript, CSS, HTML, API",
-            link: "https://ryanweiler92.github.io/Soccer-Standings-News/",
-            github: "https://github.com/ryanweiler92/Soccer-Standings-News"
+            link: "https://ryanweiler92.github.io/College-Search/index.html",
+            github: "https://github.com/ryanweiler92/College-Search"
         },
         {
             name: "Note Taker",
