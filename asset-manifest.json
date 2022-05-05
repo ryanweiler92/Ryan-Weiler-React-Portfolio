@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Ryan-Weiler-React-Portfolio/static/css/main.11d392ac.css",
-    "main.js": "/Ryan-Weiler-React-Portfolio/static/js/main.4151c4f0.js",
+    "main.js": "/Ryan-Weiler-React-Portfolio/static/js/main.da8e9abe.js",
     "static/js/787.137aa76a.chunk.js": "/Ryan-Weiler-React-Portfolio/static/js/787.137aa76a.chunk.js",
     "static/media/resume.PDF": "/Ryan-Weiler-React-Portfolio/static/media/resume.2c8b92b201b5754ca250.PDF",
     "static/media/2.jpg": "/Ryan-Weiler-React-Portfolio/static/media/2.4e7d5400d26239018838.jpg",
+    "static/media/0.jpg": "/Ryan-Weiler-React-Portfolio/static/media/0.9b84a0dba2243aa6d73b.jpg",
     "static/media/3.jpg": "/Ryan-Weiler-React-Portfolio/static/media/3.495de724fb1c48b5745e.jpg",
     "static/media/1.jpg": "/Ryan-Weiler-React-Portfolio/static/media/1.c05bfc8af5dc081fbfc1.jpg",
     "static/media/silent-planet-trees-crop.jpg": "/Ryan-Weiler-React-Portfolio/static/media/silent-planet-trees-crop.64cfb25e79dc5c238be9.jpg",
@@ -15,11 +16,11 @@
     "static/media/silent-planet-earth-crop.jpg": "/Ryan-Weiler-React-Portfolio/static/media/silent-planet-earth-crop.dc424c47a8ba80ca9f86.jpg",
     "index.html": "/Ryan-Weiler-React-Portfolio/index.html",
     "main.11d392ac.css.map": "/Ryan-Weiler-React-Portfolio/static/css/main.11d392ac.css.map",
-    "main.4151c4f0.js.map": "/Ryan-Weiler-React-Portfolio/static/js/main.4151c4f0.js.map",
+    "main.da8e9abe.js.map": "/Ryan-Weiler-React-Portfolio/static/js/main.da8e9abe.js.map",
     "787.137aa76a.chunk.js.map": "/Ryan-Weiler-React-Portfolio/static/js/787.137aa76a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11d392ac.css",
-    "static/js/main.4151c4f0.js"
+    "static/js/main.da8e9abe.js"
   ]
 }
