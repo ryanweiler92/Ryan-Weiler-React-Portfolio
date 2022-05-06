@@ -7,7 +7,7 @@ function Project(){
             name: "Crown-Gaming",
             technologies: "MERN Stack",
             link: "https://crown-gaming.herokuapp.com/",
-            github: "https://github.com/ryanweiler92/Ryan-Weiler-React-Portfolio"
+            github: "https://github.com/ryanweiler92/Crown-Gaming"
         },
         {
             name: "Workout-Assistant",
