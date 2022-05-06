@@ -4,6 +4,12 @@ function Project(){
 
     const [projects] = useState([
         {
+            name: "Crown-Gaming",
+            technologies: "MERN Stack",
+            link: "https://crown-gaming.herokuapp.com/",
+            github: "https://github.com/ryanweiler92/Ryan-Weiler-React-Portfolio"
+        },
+        {
             name: "Workout-Assistant",
             technologies: "MERN Stack",
             link: "https://powerful-beach-20504.herokuapp.com/",
@@ -20,13 +26,7 @@ function Project(){
             technologies: "MERN Stack",
             link: "https://sleepy-journey-57485.herokuapp.com/",
             github: "https://github.com/ryanweiler92/Book-Search-Engine"
-        },
-        {
-            name: "Local Restaurant Reviewer",
-            technologies: "MYSQL2, Sequelize, Express",
-            link: "https://mighty-harbor-87876.herokuapp.com",
-            github: "https://github.com/ryanweiler92/Local-Restaurant-Reviewer"
-        },
+        }
     ]);
 
     return (
